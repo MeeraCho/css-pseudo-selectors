@@ -1,0 +1,52 @@
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    padding: 3rem;
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+}
+
+section:first-child {
+    background-color: rgb(23, 66, 52);
+}
+
+section:nth-child(2) {
+    background-color: rgb(93, 123, 31);
+}
+
+section:nth-child(3) {
+    background-color: rgb(117, 123, 31);
+}
+
+section:nth-child(4) {
+    background-color: rgb(167, 173, 47);
+}
+
+section:nth-child(5) {
+    background-color: rgb(173, 137, 47);
+}
+
+section:last-child {
+    background-color: rgb(173, 102, 47);
+}
+
+section:only-child {
+    background-color: rgb(173, 47, 47);
+}
+
+p:first-of-type {
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+p:last-of-type {
+    color: rgb(255, 255, 139);
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 1.125rem;
+}
